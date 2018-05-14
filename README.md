@@ -55,6 +55,8 @@ If you would like to provide your own documentation instead of using what I have
     - `constants` (array)
         - Constants defined in the enum (string)
 
+----------
+
 ### Disclaimer
 By using this program with an LCD, you accept responsibility for any damage that may occur to your screen. I do not have an LCD myself, and so I cannot test to see if something will go wrong.
 

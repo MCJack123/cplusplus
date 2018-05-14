@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041CCBF420A3EA5C00DC9F10 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 041CCBF320A3EA5C00DC9F10 /* main.cpp */; };
+		047DB7A820A9317300DF046A /* PololuHD44780.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 047DB7A220A9317300DF046A /* PololuHD44780.cpp */; };
+		047DB7A920A9317300DF046A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 047DB7A320A9317300DF046A /* main.cpp */; };
+		047DB7AA20A9317300DF046A /* docspec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 047DB7A420A9317300DF046A /* docspec.cpp */; };
+		047DB7AB20A9317300DF046A /* screenio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 047DB7A720A9317300DF046A /* screenio.cpp */; };
+		047DB7AE20A9318200DF046A /* libncurses.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 047DB7AD20A9318200DF046A /* libncurses.tbd */; };
+		047DB7B020A9319400DF046A /* libjsoncpp.1.8.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 047DB7AF20A9319400DF046A /* libjsoncpp.1.8.4.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,16 @@
 
 /* Begin PBXFileReference section */
 		041CCBF020A3EA5C00DC9F10 /* cplusplus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cplusplus; sourceTree = BUILT_PRODUCTS_DIR; };
-		041CCBF320A3EA5C00DC9F10 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		047DB7A020A9317300DF046A /* screenio.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = screenio.hpp; sourceTree = "<group>"; };
+		047DB7A120A9317300DF046A /* headers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = headers.json; sourceTree = "<group>"; };
+		047DB7A220A9317300DF046A /* PololuHD44780.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PololuHD44780.cpp; sourceTree = "<group>"; };
+		047DB7A320A9317300DF046A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		047DB7A420A9317300DF046A /* docspec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = docspec.cpp; sourceTree = "<group>"; };
+		047DB7A520A9317300DF046A /* docspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = docspec.h; sourceTree = "<group>"; };
+		047DB7A620A9317300DF046A /* PololuHD44780.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PololuHD44780.h; sourceTree = "<group>"; };
+		047DB7A720A9317300DF046A /* screenio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = screenio.cpp; sourceTree = "<group>"; };
+		047DB7AD20A9318200DF046A /* libncurses.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libncurses.tbd; path = usr/lib/libncurses.tbd; sourceTree = SDKROOT; };
+		047DB7AF20A9319400DF046A /* libjsoncpp.1.8.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjsoncpp.1.8.4.dylib; path = ../../../../../usr/local/Cellar/jsoncpp/1.8.4/lib/libjsoncpp.1.8.4.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047DB7B020A9319400DF046A /* libjsoncpp.1.8.4.dylib in Frameworks */,
+				047DB7AE20A9318200DF046A /* libncurses.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +59,7 @@
 			children = (
 				041CCBF220A3EA5C00DC9F10 /* cplusplus */,
 				041CCBF120A3EA5C00DC9F10 /* Products */,
+				047DB7AC20A9318200DF046A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +74,25 @@
 		041CCBF220A3EA5C00DC9F10 /* cplusplus */ = {
 			isa = PBXGroup;
 			children = (
-				041CCBF320A3EA5C00DC9F10 /* main.cpp */,
+				047DB7A420A9317300DF046A /* docspec.cpp */,
+				047DB7A520A9317300DF046A /* docspec.h */,
+				047DB7A120A9317300DF046A /* headers.json */,
+				047DB7A320A9317300DF046A /* main.cpp */,
+				047DB7A220A9317300DF046A /* PololuHD44780.cpp */,
+				047DB7A620A9317300DF046A /* PololuHD44780.h */,
+				047DB7A720A9317300DF046A /* screenio.cpp */,
+				047DB7A020A9317300DF046A /* screenio.hpp */,
 			);
 			path = cplusplus;
+			sourceTree = "<group>";
+		};
+		047DB7AC20A9318200DF046A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				047DB7AF20A9319400DF046A /* libjsoncpp.1.8.4.dylib */,
+				047DB7AD20A9318200DF046A /* libncurses.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041CCBF420A3EA5C00DC9F10 /* main.cpp in Sources */,
+				047DB7A820A9317300DF046A /* PololuHD44780.cpp in Sources */,
+				047DB7AA20A9317300DF046A /* docspec.cpp in Sources */,
+				047DB7AB20A9317300DF046A /* screenio.cpp in Sources */,
+				047DB7A920A9317300DF046A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,18 +273,34 @@
 		041CCBF820A3EA5C00DC9F10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 94H887LKV9;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/jsoncpp/1.8.4/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		041CCBF920A3EA5C00DC9F10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 94H887LKV9;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/jsoncpp/1.8.4/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

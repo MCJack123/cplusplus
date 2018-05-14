@@ -30,7 +30,7 @@ Make sure `headers.json` and the `docs` folder are copied to the same directory 
 In ncurses mode, use the left & right arrow keys, enter, and backspace to navigate. In LCD mode, use the connected buttons to navigate. Pressing the back button on the main screen will close the program.
 
 ### Disclaimer
-By using this program with an LCD, you accept responsibility for any damage that may occur. I do not have an LCD myself to test the HD44780 capabilities, and so I cannot test to see if something will go wrong.
+By using this program with an LCD, you accept responsibility for any damage that may occur to your screen. I do not have an LCD myself, and so I cannot test to see if something will go wrong.
 
 ### Credits
 The information provided in the `docs` folder of this repository was retrieved from [cplusplus.com](http://www.cplusplus.com).

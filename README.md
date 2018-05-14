@@ -29,12 +29,6 @@ The code checks the architecture to see if it should use the LCD mode or ncurses
 Make sure `headers.json` and the `docs` folder are copied to the same directory as the program. Then just run the executable in the terminal. If you are using an LCD, the output should show up on the screen; otherwise it will be in a 16x2 area in the top left corner the terminal.  
 In ncurses mode, use the left & right arrow keys, enter, and backspace to navigate. In LCD mode, use the connected buttons to navigate. Pressing the back button on the main screen will close the program.
 
-### Disclaimer
-By using this program with an LCD, you accept responsibility for any damage that may occur to your screen. I do not have an LCD myself, and so I cannot test to see if something will go wrong.
-
-### Credits
-The information provided in the `docs` folder of this repository was retrieved from [cplusplus.com](http://www.cplusplus.com).
-
 ## Creating your own docset
 If you would like to provide your own documentation instead of using what I have (for instance, for another language, or to add other libraries), you can add JSON files in the following format:
 
@@ -61,3 +55,8 @@ If you would like to provide your own documentation instead of using what I have
     - `constants` (array)
         - Constants defined in the enum (string)
 
+### Disclaimer
+By using this program with an LCD, you accept responsibility for any damage that may occur to your screen. I do not have an LCD myself, and so I cannot test to see if something will go wrong.
+
+### Credits
+The information provided in the `docs` folder of this repository was retrieved from [cplusplus.com](http://www.cplusplus.com).

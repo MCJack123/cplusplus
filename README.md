@@ -8,6 +8,7 @@ A C++ documentation viewer designed for the HD44780 character LCD chipset. Inten
  - non-Windows computer
 
 ## Building
+Unzip the `docs.zip` file, and make sure the files are in a folder named `docs`.
 ### Computer
 `g++ -o cplusplus docspec.cpp screenio.cpp main.cpp -lncurses -ljsoncpp`
 ### Raspberry Pi

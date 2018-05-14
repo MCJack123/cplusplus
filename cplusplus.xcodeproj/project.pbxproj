@@ -29,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		041CCBF020A3EA5C00DC9F10 /* cplusplus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cplusplus; sourceTree = BUILT_PRODUCTS_DIR; };
+		043C853720A932BB00B3977B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		043C853820A932F400B3977B /* docs.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = docs.zip; sourceTree = "<group>"; };
 		047DB7A020A9317300DF046A /* screenio.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = screenio.hpp; sourceTree = "<group>"; };
 		047DB7A120A9317300DF046A /* headers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = headers.json; sourceTree = "<group>"; };
 		047DB7A220A9317300DF046A /* PololuHD44780.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PololuHD44780.cpp; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		041CCBE720A3EA5B00DC9F10 = {
 			isa = PBXGroup;
 			children = (
+				043C853720A932BB00B3977B /* README.md */,
 				041CCBF220A3EA5C00DC9F10 /* cplusplus */,
 				041CCBF120A3EA5C00DC9F10 /* Products */,
 				047DB7AC20A9318200DF046A /* Frameworks */,
@@ -74,6 +77,7 @@
 		041CCBF220A3EA5C00DC9F10 /* cplusplus */ = {
 			isa = PBXGroup;
 			children = (
+				043C853820A932F400B3977B /* docs.zip */,
 				047DB7A420A9317300DF046A /* docspec.cpp */,
 				047DB7A520A9317300DF046A /* docspec.h */,
 				047DB7A120A9317300DF046A /* headers.json */,
